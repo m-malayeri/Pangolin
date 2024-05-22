@@ -28,6 +28,10 @@
 #ifndef PANGOLIN_FFMPEG_H
 #define PANGOLIN_FFMPEG_H
 
+#define AV_CODEC_FLAG_GLOBAL_HEADER (1 << 22)
+#define CODEC_FLAG_GLOBAL_HEADER AV_CODEC_FLAG_GLOBAL_HEADER
+#define AVFMT_RAWPICTURE 0x0020
+
 #include <pangolin/pangolin.h>
 #include <pangolin/video/video.h>
 
